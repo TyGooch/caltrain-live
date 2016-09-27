@@ -33,6 +33,26 @@ body {
 
 }
 
+.sidebar-info{
+  align-self: flex-end;
+  font-family: 'Helvetica Neue';
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer {
+  font-family: 'Helvetica Neue';
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+  line-height: 20px;
+}
+
+.github-icon {
+  height: 20px;
+  width: 20px;
+}
+
 #map {
   display: flex;
 
