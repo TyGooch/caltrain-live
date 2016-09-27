@@ -1,0 +1,39 @@
+body {
+  background-color: #FFF5EE;
+}
+
+
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #F5F5F5;
+}
+
+.header-container {
+  background-color: #F5F5F5;
+  height: 85px;
+  width: inherit;
+  align-content: center;
+  border-bottom: 3px solid black;
+}
+
+.logo{
+  height: 85px;
+  margin-left: 10%;
+}
+
+.legend {
+
+}
+
+#map {
+  display: flex;
+
+}

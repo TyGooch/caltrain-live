@@ -4,17 +4,28 @@
   <meta charset="utf-8">
   <title>Caltrain Live View</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css" />
+  <link rel="stylesheet" href="assets/styles/styles.css" />
 </head>
 
 <body>
   <script>window.jQuery || document.write('<script src="vendor/jquery-3.1.0.slim.min.js"><\/script>')</script>
   <script src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
-  
+
   <script src="lib/main.js"></script>
   <script src="lib/stops.js"></script>
   <script src="lib/trains.js"></script>
   <script src="lib/track.js"></script>
 
-  <div id="map"></div>
+
+
+  <div class = "app-container">
+    <div class = "sidebar-container">
+      <div class = "header-container">
+        <img src = 'assets/images/logo.png' class = "logo"/>
+      </div>
+      <img src = 'assets/images/legend.png' class = "legend" />
+    </div>
+    <div id="map"></div>
+  </div>
 </body>
 </html>
