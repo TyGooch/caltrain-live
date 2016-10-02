@@ -2,8 +2,6 @@ body {
   background-color: #FFF5EE;
 }
 
-
-
 .app-container {
   display: flex;
   flex-direction: row;
@@ -29,10 +27,6 @@ body {
   margin-left: 10%;
 }
 
-.legend {
-
-}
-
 .sidebar-info{
   align-self: flex-end;
   font-family: 'Helvetica Neue';
@@ -55,5 +49,4 @@ body {
 
 #map {
   display: flex;
-
 }
